@@ -12,7 +12,7 @@ html, body {
 
 .top {
   /*photo credit: Kumar Ganapathy*/
-  background: url('ganapathy-kumar-113604.jpg') #fff;
+  background: url('/src/ganapathy-kumar-113604.jpg') #fff;
   background-size: cover;
   height: 100%;
   width: 100%;
