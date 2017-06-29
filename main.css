@@ -7,9 +7,6 @@ html, body {
   width: 100%;
   min-height: 100%;
   min-width: 100%;
-}
-
-body {
   background-color: #ffffff;
 }
 
@@ -22,8 +19,7 @@ body {
 }
 
 .tagline {
-  position: absolute;
-  margin: 10vh 85vh;
+  padding: 10vh 85vh;
   color: #fff;
   width: 40em;
 }
