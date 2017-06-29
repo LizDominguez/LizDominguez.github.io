@@ -152,13 +152,6 @@ span {
   margin: -.5em 0em 0em 12em;
   color:#afb5cc; 
   text-align: right;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-          transition:  transform .8s ease-in-out;
-}
-
-.about-me article p:hover{
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 footer {
