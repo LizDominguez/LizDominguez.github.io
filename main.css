@@ -22,14 +22,6 @@ body{
   width: 100%;
 }
 
-.top ul a{
-  font-size: 2em ;
-  position: absolute;
-  top: 93%;
-  left: 93%;
-  color: #ffffff;
-}
-
 .tagline {
   padding: 10vh 85vh;
   color: #fff;
@@ -137,14 +129,7 @@ span {
 
 .about-me {
   height:auto;
-  margin-bottom:7%;
-}
-
-article h1{
-  font: 2em 'PT Serif';
-  text-align: center;
-  color: #101010;
-  border-bottom: .01em dashed;
+  margin-bottom: 2.5em;
 }
 
 .about-me article {
@@ -152,6 +137,28 @@ article h1{
   margin: -20em 0em 0em 35em;
   font: 1em 'Assistant', sans-serif;
   color: #101010;
+}
+
+.about-me article h1{
+  font: 2em 'Cambria';
+  text-align: center;
+  color: #101010;
+  border-bottom: .01em dashed;
+}
+
+.about-me article p {
+  font: 3em 'Lora';
+  display: inline-block;
+  margin: -.5em 0em 0em 12em;
+  color:#afb5cc; 
+  text-align: right;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:  transform .8s ease-in-out;
+}
+
+.about-me article p:hover{
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 footer {
