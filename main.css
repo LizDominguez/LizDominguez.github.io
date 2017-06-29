@@ -39,16 +39,16 @@ html, body {
   content: "*";
   font-size: 13em;
   position: absolute;
-  left: -0.5em;
+  left: 2.4em;
   color: #fefffa;
 }
 
 .tagline:after {
   content: "*";
-  font-size: 13em;
+  font-size: 10em;
   position: absolute;
-  right: -0.5em;
-  top: .6em;
+  right: .7em;
+  top: 1.4em;
   color: #fefffa;
 }
 
@@ -171,7 +171,7 @@ footer ul li {
 }
  
 footer ul li a i {
-  background-color: ##a0adcb ;
+  background-color: #afb5cc;
   color: #fefffa;
   width: 2em;
   height: 1.5em;
