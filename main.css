@@ -22,9 +22,10 @@ body {
 }
 
 .tagline {
-  position: fixed;
-  margin: 5em 40em;
+  position: absolute;
+  margin: 10vh 85vh;
   color: #fff;
+  width: 40em;
 }
 
 .tagline blockquote {
