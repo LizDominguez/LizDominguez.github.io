@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Simonetta|Lora|PT+Serif|Assistant');
+
+html, body {
+  margin: 0%;
+  padding: 0%; 
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.top {
+  /*photo credit: Kumar Ganapathy*/
+  background: url('ganapathy-kumar-113604.jpg') #fff;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.tagline {
+  position: absolute;
+  margin: 5em 43em;
+  color: #fff;
+}
+
+.tagline blockquote {
+  width: 14em;
+  font: 2.65em 'Simonetta';
+  letter-spacing: .095em;
+  float: left;
+  padding: .8em 0em .8em .6em;
+  margin: 0em;
+  border-top: 0.01em dashed #455089;
+  border-bottom: 0.01em dashed #455089;
+}
+
+.tagline:before {
+  content: "*";
+  font-size: 13em;
+  position: absolute;
+  left: -0.5em;
+  color: #fefffa;
+}
+
+.tagline:after {
+  content: "*";
+  font-size: 13em;
+  position: absolute;
+  right: -0.5em;
+  top: .6em;
+  color: #fefffa;
+}
+
+.tagline blockquote:first-line {
+  font: 1.85em 'Lora';
+  color: #c7edcd;
+}
+
+.tagline blockquote:first-letter {
+  font-size: 2.7em;
+  text-transform: uppercase;
+  float: left;
+  line-height: .1em;
+  margin-right: -0.1em;
+  position: relative;
+  z-index: 1;
+}
+
+.tagline blockquote strong:first-child {
+  margin-left: 0.2em;
+  letter-spacing: 0em;
+}
+
+.tagline blockquote strong:last-child {
+  font: 1.4em 'Cambria';
+  text-transform: uppercase;
+  letter-spacing: 0em;
+}
+
+.tagline blockquote em {
+  margin: 0em 0em 0em 3.7em;
+}
+
+span {
+  float: right;
+  margin-top: .4em;
+  font: 1.6em 'Lora';
+  color: #455089;
+  letter-spacing: .15em;
+}
+
+.polaroid {
+  text-align: center;
+  position: relative;
+  top: 2em;
+  left: 10em;
+  width: 20%;
+  height: 45%;
+  background-color: white;
+  box-shadow: 0em .1em 1em 0em rgba(0, 0, 0, 0.2), 0em .4em .4em 0em rgba(0, 0, 0, 0.19);
+  transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+}
+
+.polaroid:hover {
+  transform: scale(1.1) rotate(-2deg);
+  -webkit-transform: scale(1.1) rotate(-2deg);
+  -moz-transform: scale(1.1) rotate(-2deg);
+}
+
+.polaroid img {
+  width: 90%;
+  height:auto;
+  margin: 1em 0em 0em 0em;
+}
+
+.polaroid h1 {
+  font: 1.2em 'Permanent Marker';
+  background: -webkit-linear-gradient(#080808, #707070);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-me {
+  height:auto;
+  margin-bottom:7%;
+}
+
+article h1{
+  font: 2em 'PT Serif';
+  text-align: center;
+  color: #101010;
+  border-bottom: .01em dashed;
+}
+
+.about-me article {
+  width: 40em;
+  margin: -20em 0em 0em 35em;
+  font: 1em 'Assistant', sans-serif;
+  color: #101010;
+}
+
+footer {
+  height: 35%;
+  background-color: #afb5cc;
+  text-align: center;
+}
+
+footer h1{
+  color: #fefffa;
+  font: 1.5em 'PT Serif';
+  text-align: center;
+  border-bottom: .01em dashed;
+  margin: 0em 20em 1em 20em;
+  padding-top: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+ 
+footer ul li {
+  list-style-type: none;
+  float: left;
+}
+ 
+footer ul li a i {
+  background-color: ##a0adcb ;
+  color: #fefffa;
+  width: 2em;
+  height: 1.5em;
+  border-radius: 1em;
+  font-size: 2em !important;
+  text-align: center;
+  margin-right: 1em;
+  padding-top: 15%;
+}
+
+footer ul li a i:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: .7;
+}
+
+footer p {
+  color: #b2b9d2;
+  font: .8em 'Assistant';
+}
