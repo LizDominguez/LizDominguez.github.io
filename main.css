@@ -10,12 +10,24 @@ html, body {
   background-color: #ffffff;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .top {
   /*photo credit: Kumar Ganapathy*/
   background: url('/src/ganapathy-kumar-113604.jpg') #fff;
   background-size: cover;
   height: 100%;
   width: 100%;
+}
+
+.top ul a{
+  font-size: 2em ;
+  position: absolute;
+  top: 93%;
+  left: 93%;
+  color: #ffffff;
 }
 
 .tagline {
@@ -29,7 +41,7 @@ html, body {
   font: 2.65em 'Simonetta';
   letter-spacing: .095em;
   float: left;
-  padding: .8em 0em .8em .6em;
+  padding: 1.2em 0em .8em .6em;
   margin: 0em;
   border-top: 0.01em dashed #455089;
   border-bottom: 0.01em dashed #455089;
