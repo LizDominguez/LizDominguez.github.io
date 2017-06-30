@@ -7,7 +7,7 @@ html, body {
   width: 100%;
   min-height: 100%;
   min-width: 100%;
-  background-color: #ffffff;
+  background-color: #afb5cc;
 }
 
 body{
@@ -20,12 +20,13 @@ body{
   background-size: cover;
   height: 100%;
   width: 100%;
+  font-family: 'Lora';
 }
 
 .tagline {
-  padding: 10vh 85vh;
   color: #fff;
   width: 40em;
+  margin: 10vh 0vh 0vh 90vh;
 }
 
 .tagline blockquote {
@@ -33,27 +34,10 @@ body{
   font: 2.65em 'Simonetta';
   letter-spacing: .095em;
   float: left;
-  padding: 1.2em 0em .8em .6em;
-  margin: 0em;
   border-top: 0.01em dashed #455089;
   border-bottom: 0.01em dashed #455089;
-}
-
-.tagline:before {
-  content: "*";
-  font-size: 13em;
-  position: absolute;
-  left: 2.4em;
-  color: #fefffa;
-}
-
-.tagline:after {
-  content: "*";
-  font-size: 10em;
-  position: absolute;
-  right: .7em;
-  top: 1.4em;
-  color: #fefffa;
+  border-left: none;
+  padding: 1.2em 0em .8em .6em;
 }
 
 .tagline blockquote:first-line {
@@ -95,12 +79,10 @@ span {
 }
 
 .polaroid {
+  margin-top: 2.5em;
   text-align: center;
-  position: relative;
-  top: 2em;
-  left: 10em;
-  width: 20%;
-  height: 45%;
+  width: 35vh;
+  height: 40vh;
   background-color: white;
   box-shadow: 0em .1em 1em 0em rgba(0, 0, 0, 0.2), 0em .4em .4em 0em rgba(0, 0, 0, 0.19);
   transform: rotate(-2deg);
@@ -125,18 +107,24 @@ span {
   background: -webkit-linear-gradient(#080808, #707070);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-top: .6em;
 }
 
 .about-me {
-  height:auto;
-  margin-bottom: 2.5em;
+  background-color: #ffffff;
+}
+
+.about-me .row {
+  background-color: #ffffff;
 }
 
 .about-me article {
-  width: 40em;
-  margin: -20em 0em 0em 35em;
+  width: 85%;
+  height: auto;
   font: 1em 'Assistant', sans-serif;
   color: #101010;
+  background-color: #ffffff;
+  margin:auto; 
 }
 
 .about-me article h1{
@@ -144,37 +132,36 @@ span {
   text-align: center;
   color: #101010;
   border-bottom: .01em dashed;
+  margin-top: 1em;
 }
 
 .about-me article p {
+  width: 100%;
   font: 3em 'Lora';
   display: inline-block;
-  margin: -.5em 0em 0em 12em;
   color:#afb5cc; 
   text-align: right;
+  margin: -1em 0em 0em 0em;
 }
 
 footer {
-  height: 35vh;
-  background-color: #afb5cc;
+  height: 30vh;
   text-align: center;
+  padding-top: 3em;
 }
 
 footer h1{
   color: #fefffa;
-  font: 1.5em 'PT Serif';
+  font: 2em 'Cambria';
   text-align: center;
   border-bottom: .01em dashed;
-  margin: 0em 20em 1em 20em;
-  padding-top: 3em;
-  text-transform: uppercase;
-  font-weight: bold;
+  width: 20em;
+  margin: auto;
 }
 
 footer ul {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
+  display:inline-block;
+  padding: 0em;
 }
  
 footer ul li {
@@ -188,10 +175,9 @@ footer ul li a i {
   width: 2em;
   height: 1.5em;
   border-radius: 1em;
-  font-size: 2em !important;
+  font-size: 2.5em !important;
   text-align: center;
-  margin-right: 1em;
-  padding-top: 15%;
+  margin-top: .5em;
 }
 
 footer ul li a i:hover {
