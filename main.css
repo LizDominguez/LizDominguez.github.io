@@ -21,12 +21,14 @@ body{
   height: 100%;
   width: 100%;
   font-family: 'Lora';
+  padding-top: 5vh;
 }
 
 .tagline {
   color: #fff;
   width: 40em;
-  margin: 10vh 0vh 0vh 90vh;
+  margin: auto;
+  /*margin: 10vh 0vh 0vh 90vh;*/
 }
 
 .tagline blockquote {
@@ -146,8 +148,10 @@ span {
 
 footer {
   height: 30vh;
+  width: 50vh;
   text-align: center;
   padding-top: 3em;
+  margin: auto;
 }
 
 footer h1{
@@ -155,7 +159,6 @@ footer h1{
   font: 2em 'Cambria';
   text-align: center;
   border-bottom: .01em dashed;
-  width: 20em;
   margin: auto;
 }
 
@@ -189,3 +192,4 @@ footer p {
   color: #b2b9d2;
   font: .8em 'Assistant';
 }
+
