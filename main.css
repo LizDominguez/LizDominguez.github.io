@@ -10,10 +10,6 @@ html, body {
   background-color: #afb5cc;
 }
 
-body{
-  overflow-x: hidden;
-}
-
 .top {
   /*photo credit: Kumar Ganapathy*/
   background: url('/src/ganapathy-kumar-113604.jpg') #fff;
@@ -116,10 +112,6 @@ span {
   background-color: #ffffff;
 }
 
-.about-me .row {
-  background-color: #ffffff;
-}
-
 .about-me article {
   width: 85%;
   height: auto;
@@ -144,6 +136,44 @@ span {
   color:#afb5cc; 
   text-align: right;
   margin: -1em 0em 0em 0em;
+}
+
+.projects {
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font: 2em 'Permanent Marker';
+  line-height: 35vh;
+}
+
+#project1 {
+  background-image: url('https://github.com/LizDominguez/Wikipedia-Viewer/raw/master/Preview.png');
+  background-size: cover;
+  height: 35vh;
+}
+
+#project1:hover {
+  opacity: 0.5;
+}
+
+#project2 {
+  background-image: url('https://github.com/LizDominguez/Senior-Design/raw/master/adopt-preview.png');
+  background-size: cover;
+  height: 35vh;
+}
+
+#project2:hover {
+  opacity: 0.5;
+}
+
+#project3 {
+  background-image: url('https://github.com/LizDominguez/Weather-App/raw/master/Preview.png');
+  background-size: cover;
+  height: 35vh;
+}
+
+#project3:hover {
+  opacity: 0.5;
 }
 
 footer {
@@ -192,4 +222,3 @@ footer p {
   color: #b2b9d2;
   font: .8em 'Assistant';
 }
-
