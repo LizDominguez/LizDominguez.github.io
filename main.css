@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Simonetta|Lora|PT+Serif|Assistant');
 
 html, body {
-  margin: 0%;
-  padding: 0%; 
+  margin: 0;
+  padding: 0; 
   height: 100%;
   width: 100%;
-  min-height: 100%;
-  min-width: 100%;
   background-color: #afb5cc;
 }
 
@@ -17,72 +15,70 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Lora';
-  padding-top: 5vh;
+  padding-top: 30px;
 }
 
 .tagline {
   color: #fff;
-  width: 40em;
-  margin: auto;
-  /*margin: 10vh 0vh 0vh 90vh;*/
+  width: 480px;
+  float: right;
+  position: absolute;
+  top: 40px;
+  right: 200px;
 }
 
 .tagline blockquote {
-  width: 14em;
-  font: 2.65em 'Simonetta';
-  letter-spacing: .095em;
+  width: 560px;
+  font: 43px 'Simonetta';
+  letter-spacing: 1px;
   float: left;
-  border-top: 0.01em dashed #455089;
-  border-bottom: 0.01em dashed #455089;
+  border-top: 1px dashed #455089;
+  border-bottom: 1px dashed #455089;
   border-left: none;
-  padding: 1.2em 0em .8em .6em;
+  padding: 50px 0px 25px 30px;
 }
 
 .tagline blockquote:first-line {
-  font: 1.85em 'Lora';
+  font: 75px 'Lora';
   color: #c7edcd;
 }
 
 .tagline blockquote:first-letter {
-  font-size: 2.7em;
+  font-size: 220px;
   text-transform: uppercase;
   float: left;
-  line-height: .1em;
-  margin-right: -0.1em;
+  line-height: 130px;
+  margin-right: -3px;
   position: relative;
   z-index: 1;
 }
 
 .tagline blockquote strong:first-child {
-  margin-left: 0.2em;
-  letter-spacing: 0em;
+  margin-left: 10px;
+  letter-spacing: 0px;
 }
 
 .tagline blockquote strong:last-child {
-  font: 1.4em 'Cambria';
+  font: 50px 'Cambria';
   text-transform: uppercase;
-  letter-spacing: 0em;
-}
-
-.tagline blockquote em {
-  margin: 0em 0em 0em 3.7em;
+  letter-spacing: 0px;
 }
 
 span {
   float: right;
-  margin-top: .4em;
-  font: 1.6em 'Lora';
+  margin: -2px -40px 0px 0px;
+  font: 25px 'Lora';
   color: #455089;
-  letter-spacing: .15em;
+  letter-spacing: 1px;
 }
 
 .polaroid {
-  margin-top: 2.5em;
+  margin-top: 30px;
   text-align: center;
-  width: 35vh;
-  height: 40vh;
+  width: 250px;
+  height: 290px;
   background-color: white;
-  box-shadow: 0em .1em 1em 0em rgba(0, 0, 0, 0.2), 0em .4em .4em 0em rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.2), 0px 4px 4px 0px rgba(0, 0, 0, 0.19);
   transform: rotate(-2deg);
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
@@ -97,11 +93,11 @@ span {
 .polaroid img {
   width: 90%;
   height:auto;
-  margin: 1em 0em 0em 0em;
+  margin: 15px 0px 0px 0px;
 }
 
 .polaroid h1 {
-  font: 1.2em 'Permanent Marker';
+  font: 18px 'Permanent Marker';
   background: -webkit-linear-gradient(#080808, #707070);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -110,6 +106,7 @@ span {
 
 .about-me {
   background-color: #ffffff;
+  padding-bottom: 30px;
 }
 
 .about-me article {
@@ -143,13 +140,13 @@ span {
   color: #ffffff;
   text-align: center;
   font: 2em 'Permanent Marker';
-  line-height: 35vh;
+  line-height: 300px;
 }
 
 #project1 {
   background-image: url('https://github.com/LizDominguez/Wikipedia-Viewer/raw/master/Preview.png');
   background-size: cover;
-  height: 35vh;
+  height: 260px;
 }
 
 #project1:hover {
@@ -159,7 +156,7 @@ span {
 #project2 {
   background-image: url('https://github.com/LizDominguez/Senior-Design/raw/master/adopt-preview.png');
   background-size: cover;
-  height: 35vh;
+  height: 260px;
 }
 
 #project2:hover {
@@ -169,7 +166,7 @@ span {
 #project3 {
   background-image: url('https://github.com/LizDominguez/Weather-App/raw/master/Preview.png');
   background-size: cover;
-  height: 35vh;
+  height: 260px;
 }
 
 #project3:hover {
@@ -177,8 +174,8 @@ span {
 }
 
 footer {
-  height: 30vh;
-  width: 50vh;
+  height: 200px;
+  width: 300px;
   text-align: center;
   padding-top: 3em;
   margin: auto;
