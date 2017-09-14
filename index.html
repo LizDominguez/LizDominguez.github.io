@@ -4,30 +4,50 @@
   <meta charset="utf-8">
     
   <link rel="stylesheet" href="main.css">
+  
+  <link rel="icon" href="/src/assets/favicon.png" sizes="32x32">
 
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   
    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   
-  <title>Portfolio</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+  <title>Liz Dominguez</title>
   
 </head>
 <body>
-  
-  <header>
-  </header>
-  
-  <div class="title">
-    <h1>Liz Dominguez</h1>
-    <strong>Web Developer</strong>
+  <a name="top"></a>
+  <div id="particle-canvas">
   </div>
   
+  <header>
+     <nav>
+      <img src="/src/logo.png">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+    </nav>
+    
+    <h1>Liz Dominguez</h1>
+    <blockquote>
+      Full-stack Web Developer based in Seattle.<br>
+      My projects incorporate responsive, mobile-first UI/UX designs.
+    </blockquote>
+    
+    <a href=""><button class="resume-btn">View Resume</button></a>
+    
+     <a href="https://github.com/LizDominguez"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/elizabeth-dominguez-leon-86142b102/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://angel.co/elizabeth-dominguez-leon?public_profile=1"><i class="fa fa-angellist"></i></a>
+      <a href="mailto:liz.dominguez.leon@gmail.com"><i class="fa fa-envelope"></i></a>
+  </header>
+  
   <div class="about">
+    <a name="about"></a>
   <img src="src/profile.jpg">
     <b>About Me</b>
-    <blockquote>
-      My projects incorporate responsive, mobile-first UI/UX designs
-    </blockquote>
     <p>
       I'm a Seattle based web developer with experience creating projects that utilize HTML, CSS, JavaScript, and the backend MEAN Stack. My goal is to become a confident full-stack web developer.
     </p>
@@ -36,15 +56,10 @@
       My projects incorporate responsive, mobile-first UI designs using media queries or Bootstrap. Javascript and back-end technologies help me deliver a seamless UX. You can see all of my projects on my GitHub and select projects on my LinkedIn, AngelCo, and Wordpress site.
     </p>
 
-      <a href="https://github.com/LizDominguez"><i class="fa fa-github"></i></a>
-      <a href="https://www.linkedin.com/in/elizabeth-dominguez-leon-86142b102/"><i class="fa fa-linkedin"></i></a>
-      <a href="https://angel.co/elizabeth-dominguez-leon?public_profile=1"><i class="fa fa-angellist"></i></a>
-      <a href="mailto:liz.dominguez.leon@gmail.com"><i class="fa fa-envelope"></i></a>
-
-    
   </div>
   
   <div class="skills">
+    <a name="skills"></a>
   <h2>Main Skills</h2>
     
     <h3>HTML & CSS</h3>
@@ -81,22 +96,90 @@
   
   <div class="container">
 
-  <div class="education">
-    <div class="education-content">
-  <h2>Education</h2>
-    <h4>B.S. Electrical Engineering</h4>
-    <h4>University of Florida — August 2017</h4>
+    <div class="education">   
+      <a name="education"></a>
+      <h2>Education</h2>
+      <h4>B.S. Electrical Engineering</h4>
+      <h4>University of Florida — August 2017</h4>
     </div>
-  </div>
   
-  <div class="language">
+    <div class="languages">
      <h2>Languages</h2>
-    <h4>English</h4> 
-    <h4>Spanish</h4>
-  </div>
+      <h4>English</h4> 
+      <h4>Spanish</h4>
+    </div>
+    
  </div>
   
-<script type="text/javascript" src="main.js">
+  <div class="projects">
+
+    <a name="projects"></a>
+    <h2>Projects</h2>
+    
+    <div class="projects-flex">
+    
+    
+    <div class="project">
+      <h5>Blog Site</h5>
+      <img src="https://github.com/LizDominguez/MyBlog/raw/master/public/index.png">
+      <p>
+        A full-stack blog site that allows you to add, edit, and delete blog posts using a MongoDB server and Semantic UI.
+      </p>
+     <a href="https://github.com/LizDominguez/MyBlog"><button>View Project</button></a>
+    </div>
+    
+    <div class="project">
+      <h5>Calculator</h5>
+      <img src="https://github.com/LizDominguez/Calculator/raw/master/screenShot.png">
+      <p>
+        A Javascript calculator with the functionality of a real calculator.
+      </p>
+     <a href="https://github.com/LizDominguez/Calculator"><button>View Project</button></a>
+    </div>
+    
+    <div class="project">
+      <h5>Weather Application</h5>
+      <img src="https://github.com/LizDominguez/Weather-App/raw/master/Preview.png">
+      <p>
+        A weather application using OpenWeatherMap API and Google Geolocation API. The application changes background depending on temperature and changes the sun to a moon from day to night.
+      </p>
+     <a href="https://github.com/LizDominguez/Weather-App"><button>View Project</button></a>
+    </div>
+    
+    <div class="project">
+      <h5>RFID Animal Shelter System</h5>
+      <img src="https://github.com/LizDominguez/Senior-Design/raw/master/adopt-preview.png">
+      <p>
+        MYshelter is an animal shelter management system that keeps track of the pets that are surrendered and adopted. Each animal is given an RF tag with a unique ID. The ID is scanned once when the animal is surrendered to the shelter, and a second time once the animal is adopted. This information is stored in a database and displayed on a website.
+      </p>
+     <a href="https://github.com/LizDominguez/Senior-Design"><button>View Project</button></a>
+    </div>
+    
+    <div class="project">
+      <h5>Wikipedia Viewer</h5>
+      <img src="https://github.com/LizDominguez/Wikipedia-Viewer/raw/master/Preview.png">
+      <p>
+        A Wikipedia viewer using the Wikipedia API that displays a user's search results, and provides a random search when the "W" is clicked.
+      </p>
+     <a href="https://github.com/LizDominguez/Wikipedia-Viewer"><button>View Project</button></a>
+    </div>
+    
+    </div>
+      
+  </div>
+  
+  <footer> 
+    <a href="https://github.com/LizDominguez"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/elizabeth-dominguez-leon-86142b102/"><i class="fa fa-linkedin"></i></a>
+      <a href="https://angel.co/elizabeth-dominguez-leon?public_profile=1"><i class="fa fa-angellist"></i></a>
+      <a href="mailto:liz.dominguez.leon@gmail.com"><i class="fa fa-envelope"></i></a>
+    
+    <p>© 2017. All Rights Reserved.</p>
+    
+    <a href="#top">Back To Top</a>  
+  </footer>
+  
+  <script type="text/javascript" src="main.js">
   </script>   
   
 </body>

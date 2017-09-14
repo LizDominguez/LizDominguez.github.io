@@ -1,6 +1,6 @@
 /*Mobile First*/
 
-@import url('https://fonts.googleapis.com/css?family=Teko|Quicksand|Work+Sans|Montserrat:100|Caveat');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand|Work+Sans|Montserrat:100|Caveat');
 
 html, body {
   margin: 0;
@@ -8,44 +8,89 @@ html, body {
 }
 
 body {
-  background-color: #e7e5e7;
+  background-color: #fafafa;
   text-align: center;
   color: #000;
   font-family: 'Quicksand';
 }
 
-header {
-  padding: 150px;
-  background: url('src/seattle.jpg');
-  background-size: cover;
+#particle-canvas {
+  padding: 0;
+  margin: 0 auto;
+  height: 330px;
 }
 
-.title {
-  background-color: rgba(250, 250, 250, 0.9);
-  width: 100%;
-  height: 240px;
-  padding: 0;
+header {
+  height: 250px;
+  padding: 15px;
+  text-align: left;
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 60px;
+  z-index: 100;
 }
 
+nav {
+  text-align: right;
+  margin: 20px 0px 20px 0px;
+}
+
+nav a, footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+nav a:hover {
+  color: #01a2a6;
+  border-bottom: 1.5px solid #01a2a6;
+}
+
+nav img {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 50px;
+}
 
 h1 {
-  font: 60px 'Teko';  
+  font: 40px 'Playfair Display';  
   margin: 0 auto;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0px 1px 2px rgba(150, 150, 150, .3);
+  color: #01a2a6;
 }
 
-strong {
-  color: #94bccd;
-  text-transform: uppercase;
-  display: block;
-  margin-top: -20px;
-  font: 20px 'Work Sans';
+blockquote {
+  width: 100%;
+  color: #fff;
+  margin: 10px 0px 25px 0px;
+  float: left;
+}
+
+i {
+  float: center;
+  text-decoration: none;
+  color: #e7e5e7;
+  width: 40px;
+  height: 50px;
+  font-size: 30px !important;
+  text-align: center;
+}
+
+footer a:hover, i:hover, button:hover {
+  transition: all 0.2s ease-in-out;
+  opacity: .2;
+  cursor: pointer;
+}
+
+button {
+  height: 50px;
+  width: 150px;
+  border-radius: 50px;
+  background: none;
+  border: none;
+  background-color: #bdf25d;
+  color: #fff;
+  font-size: 15px;
 }
 
 div {
@@ -53,66 +98,41 @@ div {
 }
 
 .about {
-  margin: -90px 0px 0px 0px;
-  width; 100vw;
+  margin: 0px auto;
+  padding: 0px 0px 20px 0px;
+  width: 100%;
+  color: #8f8f8f;
 }
 
-img{
+.about img{
   width: 30%;
   height: auto;
   border-radius: 50%;
   border: 5px solid #fff;
   position: relative;
-  margin-bottom: 10px;
+  margin: 30px 0px 10px 0px;
 }
 
 b {
   width: 100%;
-  font: 2em 'Teko';
+  font: 25px 'Playfair Display';
   text-transform: uppercase;
   display: block;
+  color: #01a2a6;
 }
 
-blockquote {
-  width: 100%;
-  font: 1.5em 'Caveat';
-  color: #94bccd;
-  margin: 10px 0px 25px 0px;
-  float: center;
-}
-
-p {
-  width: 100%;
+.about p {
   font-size: .9em;
-  margin: 10px 0px 25px 0px;
+  padding: 0px 10% 0px 10%;
   text-align: justify;
   float: center;
 }
 
- 
-i {
-  float: center;
-  text-decoration: none;
-  background-color: #94bccd;
-  color: #fff;
-  width: 65px;
-  height: 65px;
-  font-size: 50px !important;
-  text-align: center;
-  padding-top: 10px;
-  margin-bottom: 10px;
-}
-
-a i:hover {
-  transition: all 0.2s ease-in-out;
-  opacity: .2;
-}
-
 
 h2 {
-  color: #94bccd;
+  color: #01a2a6;
   text-transform: uppercase;
-  font: 30px 'Teko';
+  font: 25px 'Playfair Display';
   padding: 0px 0px 0px 0px;
 }
 
@@ -121,13 +141,13 @@ h3 {
 }
 
 .skills {
-  background-color: #252629;
-  color: #fff;
+  background-color: #fff;
+  color: #8f8f8f;
   padding: 30px 0px 60px 0px;
 }
 
 .progress {
-  background-color: #42879e;
+  background-color: #01a2a6;
   height: 20px;
   width: 300px;
   margin: 0 auto;
@@ -138,84 +158,141 @@ span {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: #94bccd;
+  background-color: #29d9c2;
   text-align: right;
   color: #fff;
   font: 17px 'Work Sans';
+  padding-right: 5%;
 }
 
 #html {
-  width: 90%;
+  width: 85%;
 }
 
 #javascript {
-  width: 70%;
+  width: 65%;
 }
 
 #mongo {
-  width: 50%;
+  width: 45%;
 }
 
 #express {
-  width: 50%;
+  width: 45%;
 }
 
 #node {
-  width: 50%;
+  width: 45%;
 }
 
 #c {
-  width: 80%;
+  width: 75%;
 }
 
 #wordpress {
-  width: 70%;
+  width: 65%;
 }
 
 .education {
-  background-color: #3d4750;
-  color: #fff;
+  background-color: #f5f5f5;
+  color: #8f8f8f;
   padding: 40px 0px 40px 0px;
-}
-
-.education-content {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 80%;
-  margin: 0 auto;
-  padding: 25px;
 }
 
 h4 {
   line-height: 0px;
 }
 
-.language {
-  background-color: #191719;
-  color: #fff;
+.languages {
+  background-color: #f0f0f0;
+  color: #8f8f8f;
 }
 
 .container {
   padding: 0;
 }
 
+.projects {
+  padding: 30px 0px 30px 0px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: .9em;
+}
+
+.projects h2 {
+  margin-bottom: -10vw;
+}
+
+.project {
+  margin: 10%;
+  padding: 15px 8px 0px 8px;
+  float: center;
+  width: 80%;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.1);
+  -moz-box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.1);
+  box-shadow: 2px 3px 8px -1px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h5 {
+  font: 20px 'Playfair Display';
+  margin: 0px 0px 20px 0px;
+  padding: 0;
+  text-align: left;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project p {
+  text-align: left;
+  padding: 0px 10px 0px 10px;
+  height: 100px;
+  overflow: auto;
+}
+
+.project button {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #171833;
+  color: #fff;
+  padding: 30px 0px 30px 0px;
+}
+
+footer i {
+  width: 10px;
+  height: 10px;
+  font-size: 25px !important;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #29d9c2;
+}
+
+
 
 @media screen and (min-width: 700px) {
   
-  h1 {
-    font-size: 10vw;
-  }
-  
-  strong {
-    margin-top: -3vw;
-    font-size: 3vw;
-  }
-  
   .about {
-    margin-top: 0px;
-    max-height: 60vw;
+    margin: 30px 0px 30px 0px;
+    min-height: 230px;
   }
   
-  img {
+  b {
+    text-align: left;
+  }
+  
+  
+  .about img {
     width: 200px;
     height: auto;
     float: left;
@@ -241,17 +318,53 @@ h4 {
     width: 100%;
   }
   
- .language {
-   padding: 40px 0px 41px 0px;
+ .languages {
+   padding: 75px 0px 74px 0px;
    float: left;
    width: 100%;
   }
   
+  .projects h2 {
+    margin-top: 580px;
+  }
+  
+  footer {
+    padding: 40px 0px 40px 0px;
+  }
+  
 }
+
+
 
 @media screen and (min-width: 1000px) {
   
-   h1 {
-    font-size: 8vw;
-  }  
+  header {
+    padding-left: 10%;
+    width: 85%;
+  }
+  
+  .about p {
+    padding: 10px 30% 0px 10%;
+  }
+  
+  .project {
+    max-width: 30%;
+    margin: 1%;
+  }
+  
+  .projects-flex {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .projects h2 {
+  margin-bottom: 3vw;
 }
+  
+}
+
+
+
