@@ -45,6 +45,27 @@ nav a:hover {
   color: #01a2a6;
 }
 
+#menu {
+  padding: 0;
+  margin: -10px 0px 0px 0px;
+  float: right;
+}
+
+#menu a {
+  display: block;
+}
+
+#dropdown { 
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: none;
+}
+
+#menu:hover #dropdown{
+   display : block;
+}
+
 nav img {
   position: absolute;
   top: 20px;
