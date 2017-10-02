@@ -220,14 +220,14 @@ span {
 }
 
 strong {
-  color:#053f6f;
+  color: #01a2a6;
 }
 
 h4 {
   line-height: 0px;
 }
 
-.languages {
+.experience {
   background-color: #f0f0f0;
   color: #8f8f8f;
 }
@@ -288,11 +288,15 @@ h5 {
 }
 
 .project button {
-  margin-bottom: 20px;
+  margin: 0px 3% 20px 3%;
 }
 
 .games {
   background-color: #f0f0f0;
+  padding: 30px 0px 30px 0px;
+  margin: 0 auto;
+  width: 100%;
+  font-size: .9em;
 }
 
 .more-games a {
@@ -366,7 +370,7 @@ footer a {
     width: 100%;
   }
   
- .languages {
+ .experience {
    padding: 75px 0px 74px 0px;
    float: left;
    width: 100%;
@@ -374,6 +378,18 @@ footer a {
   
   .projects h2 {
     margin-top: 580px;
+  }
+  
+  .more-projects {
+    margin: 100px 0px 10px 0px;
+  }
+  
+  .project {
+    margin-top: 0px;
+  }
+  
+  .project p {
+    padding: 5% 10% 0% 5%;
   }
   
   footer {
@@ -384,7 +400,36 @@ footer a {
 
 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 800px) and (max-width: 1199px){ 
+
+  .project {
+    max-width: 40%;
+    margin: 1%;
+  }
+  
+  .more-projects {
+    margin: 12% 0px 50px 0px;
+  }
+  
+  .more-games {
+    margin: 10px 0px 50px 0px;
+  }
+  
+  .projects-flex {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}
+
+
+@media screen and (min-width: 1200px) {
   
   header {
     padding-left: 10%;
@@ -396,7 +441,11 @@ footer a {
   }
   
   .more-projects {
-  margin: -10px 0px 30px 0px;
+    margin: -20px 0px 30px 0px;
+  }
+  
+  .more-games {
+    margin: 10px 0px 50px 0px;
   }
   
   .project {
@@ -411,6 +460,8 @@ footer a {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
   }
   
   .projects h2 {
