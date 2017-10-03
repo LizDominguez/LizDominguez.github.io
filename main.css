@@ -53,6 +53,7 @@ nav a:hover {
 
 #menu a {
   display: block;
+  cursor: pointer;
 }
 
 #dropdown { 
@@ -62,8 +63,14 @@ nav a:hover {
   display: none;
 }
 
+/*
 #menu:hover #dropdown{
    display : block;
+}
+*/
+
+.show {
+  display : block;
 }
 
 nav img {

@@ -51,4 +51,9 @@ $('a[href*="#"]')
     }
   });
   
+  $('#menu').click(function() {
+    
+    $('#dropdown').css('display', 'block');
+  });
+  
   });
